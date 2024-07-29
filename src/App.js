@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Component/Home';
 function App() {
   return (
-    <div className="home-container">
+    <div className="app">
         <Home/>
     </div>
   );

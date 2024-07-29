@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
+  
 }
 img {
   max-width: 100%;
@@ -13,14 +14,17 @@ img {
   width: 85vw;
   max-width: 1900px;
   margin: 0rem auto;
+  
 }
 body {
   max-width: 100%;
   overflow-x: hidden;
+  
 }
 
 body {
   background-color: #f6f6f6;
+  
 }
 
 nav {
@@ -29,6 +33,7 @@ nav {
   justify-content: space-around;
   min-height: 90px;
 }
+
 .navbar-menu-container {
   display: none;
 }
@@ -48,23 +53,26 @@ nav {
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
-  transition: 0.2s;
+  transition: background-color 0.3s ease;
 }
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: #fe9e0d; /* New background color on hover */
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
   cursor: pointer;
 }
 .home-banner-container {
-  position: relative;
   display: flex;
   padding-top: 3rem;
+  position: relative; /* Ensure proper positioning context for absolute elements */
+  justify-content: space-around; /* Distribute space between child elements */
+  align-items: center; /* Align items vertically centered */
 }
+
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
@@ -72,29 +80,34 @@ nav {
   z-index: -2;
   max-width: 700px;
 }
+
 .home-image-section {
   max-width: 600px;
   flex: 1;
 }
+
 .home-text-section {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; /* Align text to the start of the flex container */
+  max-width: 500px; /* Optional: Set max-width for better control */
 }
+
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
   color: #4c4c4c;
-  /* line-height: 5rem; */
   max-width: 600px;
 }
+
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;
   color: #6a6a6a;
   margin: 1.5rem 0rem;
 }
+
 .secondary-button {
   padding: 1rem 2.5rem;
   background-color: #fe9e0d;
@@ -118,7 +131,7 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
+  /* margin-top: 10rem; */
   position: relative;
   display: flex;
   align-items: center;
@@ -126,8 +139,8 @@ nav {
 }
 .about-background-image-container {
   position: absolute;
-  left: -150px;
-  z-index: -2;
+  /* left: -150px;
+  z-index: -2; */
 }
 .about-section-image-container {
   flex: 0.9;
