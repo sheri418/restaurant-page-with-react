@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import About from './About';
+// import About from './About';
 import BannerBackground from "../Assets/home-banner-background.png";
 import { FiArrowRight } from 'react-icons/fi';
 import BannerImage from "../Assets/home-banner-image.png";
@@ -29,7 +29,6 @@ function Home() {
           </div>
         </div>
 
-        <About/>
 
     </div>
   )

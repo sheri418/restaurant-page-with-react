@@ -15,6 +15,21 @@ const About = () => {
         </div>
         <div className='about-section-text-container'>
             <p className='primary-subheading'>About</p>
+            <h1 className='primary-heading'>
+              Food Is An Important Part of A Balanced Diet
+            </h1>
+            <p className='primary-text'>
+            "Good food is the foundation of genuine happiness."
+            </p>
+            <div className='about-button-container'>
+              <button className='secondary-button'>
+                Learn More
+              </button>
+              <button className='watch-video-button'>
+                <BsFillPlayCircleFill />Watch Video
+              </button>
+
+            </div>
         </div>
 
     </div>
